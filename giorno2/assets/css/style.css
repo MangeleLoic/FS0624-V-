@@ -428,18 +428,30 @@ position: relative;
   position: fixed;
   right: 2%;
   bottom: 40%;
+  z-index: 3;
+  
 }
 #liCalendar {
   position: fixed;
   right: 2%;
   bottom: 30%;
+  z-index: 3;
 }
 #liAnchor {
   position: fixed;
   right: 2%;
   bottom: 20%;
+  z-index: 3;
 }
+.card {
+  position: relative;
 
+}
+.fas.fa-tag {
+position: absolute;
+right: 0;
+top: 0;
+}
 
 @media screen and (min-width: 700px) {
   #liSocial {
