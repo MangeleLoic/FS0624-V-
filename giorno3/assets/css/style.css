@@ -1,0 +1,29 @@
+img {
+    width: 4%;
+    margin-right: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    border-radius: 60px;
+    background-color: #FBF7E3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+}
+
+#immagineListItem {
+    width: 70px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+nav ul li {
+    border-radius: 30px;
+    background-color: #F3DF85;
+    color: #612406;
+
+}
