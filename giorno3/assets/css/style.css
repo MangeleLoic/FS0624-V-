@@ -44,3 +44,21 @@ nav ul li {
     align-items: center;
 
 }
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 1500px;
+}
+.image img {
+    width: 100%;
+}
+.paragrafo {
+    margin: 10px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+  
+}

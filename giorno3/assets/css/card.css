@@ -4,18 +4,20 @@ body {
 
 .immagine {
     width: 100%;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+   
+    
 }
 
 .container {
     border-radius: 100px;
-    width: 500px;
-    min-height: 400px;
+    width: 400px;
+    min-height: 410px;
     display: flex;
     flex-direction: column;
    text-align: center;
    background-color:#FBF7E3 ;
+   overflow: hidden;
+   
     
 }
 
@@ -46,9 +48,12 @@ body {
 }
 .btn {
     border-radius: 70px;
-    width: 10rem;
+    width: 12rem;
     height: 2.5rem;
     background-color: #F3DF85;
     border: none;
     color: #612406;
+    font-weight: 700;
+    font-size: large;
+    margin-bottom: 20px;
 }
