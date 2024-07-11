@@ -1,0 +1,72 @@
+body {
+    background-color: #636363;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    margin-top: 30px;
+
+
+}
+
+div {
+    width: 190px;
+    height: 190px;
+    border: 0.5px solid black;
+    margin: 10px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 2px 0px 15px -3px #000000;
+}
+
+.post {
+    background-color: #F1F2BC;
+transform: rotate(15deg);
+
+}
+
+.col {
+    background-color: #B8DCBA;
+    transform: rotate(-10deg);
+}
+
+.near {
+    background-color: #B0B0CA;
+    transform: rotate(7deg);
+}
+
+.space {
+    background-color: #B9DCBA;
+    transform: rotate(-8deg);
+}
+
+.shade {
+    background-color: #F4F4C1;
+    transform: rotate(-13deg);
+}
+
+.spin {
+    background-color: #A9A9C2;
+    transform: rotate(10deg);
+}
+
+.anime {
+    background-color: #DFE0AD;
+    transform: rotate(-16deg);
+}
+
+.test {
+    background-color: #ACCBAE;
+    transform: rotate(12deg);
+}
+
+div:hover {
+    transform: scale(1.2);
+}

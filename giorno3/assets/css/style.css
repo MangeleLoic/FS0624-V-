@@ -89,5 +89,97 @@
 }
 
 @media screen and (min-width:300px) {
+    img {
+        width: 4%;
+        margin-right: 5px;
+    }
     
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        border-radius: 60px;
+        background-color: #FBF7E3;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+      
+        height: 700px;
+      width: 80%;
+        padding-right: 40px;
+    }
+    
+    #immagineListItem {
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+        flex: grow 0.3; 
+       height: 15%;
+        border-radius: 70px;
+        font-size: 1.7rem;
+        font-weight: 700;
+        order: -1;
+
+    }
+    
+    #immagineListItem img {
+        width: 45%;
+    }
+    
+    nav ul li {
+        border-radius: 30px;
+        background-color: #F3DF85;
+        color: #612406;
+        width: 90px;
+        height: 55px;
+        display: flex;
+    justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .mainContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    
+    .image {
+        width: 100%;
+    }
+    
+    .image img {
+        width: 100%;
+    }
+    
+    .paragrafo {
+        margin: 10px;
+        font-size: smaller;
+        display: flex;
+        flex-direction: column;
+        color: #7B3014;
+    
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        color: #7B3014;
+        text-align: center;
+    }
+    
+    /* Css Section*/
+    section {
+        display: flex;
+        
+        justify-content: space-between;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    
+    
+    }
+   
 }
