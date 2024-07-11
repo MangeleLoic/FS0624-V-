@@ -14,3 +14,49 @@ h3 {
 span {
     color:#6A879B;
 }
+.text {
+    display: inline-block;
+    position: relative;
+}
+.transition {
+    display: inline-block;
+    position: relative;
+    width: 150px; 
+    height: 1em;
+    overflow: hidden;
+}
+.word {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    opacity: 0;
+    animation: wordAnimation 9s infinite;
+    
+}
+.word:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.word:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.word:nth-child(3) {
+    animation-delay: 6s;
+}
+@keyframes wordAnimation {
+    0%, 33% {
+        top: -100%;
+        opacity: 0;
+    }
+    33%, 66% {
+        top: 0;
+        opacity: 1;
+    }
+    66%, 100% {
+        top: 100%;
+        opacity: 0;
+    }
+}
